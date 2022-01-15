@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200;300;500;700;900&family=Inconsolata&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;1,400;1,700&display=swap');
+
+body {
+          background-color: hsl(217, 54%, 11%);
+}
+
+a {
+          text-decoration: none;
+}
+
+.card {
+          background-color: hsl(216, 50%, 16%);
+          box-shadow: 5px 5px 5px 20px rgb(19, 8, 29);
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 23px;
+          margin-left: 500px;
+          margin-top: 50px;
+          height: 550px;
+          width: 330px;
+          color: white;
+          transition: all 0.5s;
+          border-radius: 20px;
+          padding: 10px;
+}
+
+.card p {
+          font-size: 18px;
+}
+
+.card img {
+          width: 80%;
+          align-items: center;
+          justify-content: center;
+          transform: translateX(20px);
+          border-radius: 30px;
+          padding: 10px;
+}
+
+.card .avater {
+          width: 10%;
+          transform: translateX(-1px) translateY(10px);
+          transition: all 0.5s;
+          border: 2px solid hsl(178, 100%, 50%);
+          margin: 0;
+          padding: 0px;
+}
+
+.card .name {
+          display: inline;
+          margin: 10px;
+}
+
+.card .con {
+          opacity: 0.7;
+}
+
+.card .s {
+          color: white;
+}
+
+.card .s:hover {
+          color: hsl(200, 100%, 50%);
+}
+
+.card .dia {
+          width: 5%;
+          display: inline;
+          transform: translateY(10px);
+}
+
+.card .diap {
+          display: inline;
+          margin-right: 70px;
+}
